@@ -1,0 +1,105 @@
+body
+{
+margin:0;
+}
+
+/* desktop */
+.desktop{
+  width: 100%;
+  height: 100vh;
+  background: url("images/1.jpg") center no-repeat;
+  background-size: cover;
+
+}
+
+/*container */
+.container{
+  width: 85%;
+  height:95vh;
+  margin: 0  auto;
+
+
+}
+.fraime7{
+  position: relative;
+  height:8vh;
+  width:72%;
+  top:3%;
+  margin:0 auto;
+
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+
+  background-color: #DBE3F6;
+}
+
+/* nav */
+.nav{
+  font-size:24px ;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+
+}
+
+.nav__link{
+  color: #3D9C91;
+  text-decoration: none;
+
+  transition:  color .2s liner;
+}
+
+.nav__link:hover{
+  color:#6A5ACD;
+}
+
+
+
+/* name */
+.name{
+  position: relative;
+  height:30vh;
+  width:90%;
+  top:5%;
+  margin:0 auto;
+
+
+}
+
+.laptop1{
+width: 35%;
+height:30vh;
+display: flex;
+justify-content: flex-end;
+}
+
+
+.name__name{
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Merriweather', serif;
+}
+
+
+/* main__rules */
+.main__rules{
+  position: relative;
+  height:60vh;
+  width:80%;
+  top:3%;
+  margin:0 auto;
+}
+
+.headline{
+  font-size: 64px;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+.rules{
+  font-size: 42px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+
+
+}
